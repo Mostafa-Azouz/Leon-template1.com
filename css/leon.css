@@ -388,6 +388,7 @@ ul li:not(:last-child) a {
     width: 240px;
     height: 300px;
     z-index: 2;
+
 }
 
 .photo::before {
@@ -515,7 +516,13 @@ ul li:not(:last-child) a {
         font-size: 12px;
     }
 
-
+    .photo img {
+        position: relative;
+        width: 240px;
+        height: 300px;
+        z-index: 2;
+        left: -20px;
+    }
 }
 
 /* start footer */
