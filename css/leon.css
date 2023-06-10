@@ -521,7 +521,7 @@ ul li:not(:last-child) a {
         width: 240px;
         height: 300px;
         z-index: 2;
-        left: -20px;
+        left: 15px;
     }
 }
 
